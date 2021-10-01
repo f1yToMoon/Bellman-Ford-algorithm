@@ -47,7 +47,7 @@ void BellmanFord(int graph[][3], int V, int E,
             }
     }
 
-    cout << "Расстояние до каждой вершины" << endl;
+    cout << "Vertex Distance from Source" << endl;
     for (int i = 0; i < V; i++)
         cout << i << "  " << dis[i] << endl;
 }
